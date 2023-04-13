@@ -8,45 +8,88 @@ import PlayStore from "../asset/googleplay.png";
 import AppleStore from "../asset/appstore.png";
 
 const Payment = () => {
+	const gradientColor = {
+		background: "linear-gradient(113.08deg, #FFFFFF -242.51%, #14101D 85.56%)",
+		boxShadow: "inset -0.243217px -0.243217px 0.364826px rgba(0, 0, 0, 0.36)",
+	};
 	return (
 		<div>
 			<Checkout />
 			<div className="payment-container">
-				<div className="transactions">
-					<h3>Last Transaction</h3>
-					<div className="transaction">
-						<div className="transaction-name">
-							<img src={Dribbble} alt="dribble img" />
-							<h5>Dribbble Pro</h5>
-							<p>15 Days ago</p>
+				<div
+					style={gradientColor}
+					className="transactions w-80 h-72 backdrop-blur-lg rounded-xl px-5 py-7">
+					<h3 className="font-semibold text-xl leading-5 text-left pb-8">
+						Last Transaction
+					</h3>
+
+					{/* transaction-1  */}
+
+					<div className="transaction flex justify-between pb-8">
+						<div className="transaction-name flex gap-4">
+							<div className="img">
+								<img src={Dribbble} alt="dribble img" />
+							</div>
+							<div className="text">
+								<h5 className="font-semibold text-base leading-5">
+									Dribbble Pro
+								</h5>
+								<p className="font-normal text-xs leading-5 text-gray-500">
+									15 Days ago
+								</p>
+							</div>
 						</div>
-						<div className="transaction-balance">
-							<img src={NagativeBl} alt="negative" />
-							<p>-$250,93</p>
+						<div className="transaction-balance flex gap-1">
+							<div className="img mt-1">
+								<img src={NagativeBl} alt="negative" />
+							</div>
+							<p className="font-normal text-sm leading-5">-$250,93</p>
 						</div>
 					</div>
 
-					<div className="transaction">
-						<div className="transaction-name">
-							<img src={Netflix} alt="netflix img" />
-							<h5>Netflix</h5>
-							<p>4 Days ago</p>
+					{/* transaction-2  */}
+
+					<div className="transaction flex justify-between pb-8">
+						<div className="transaction-name flex gap-4">
+							<div className="img">
+								<img src={Netflix} alt="netflix img" />
+							</div>
+							<div className="text">
+								<h5 className="font-semibold text-base leading-5">Netflix</h5>
+								<p className="font-normal text-xs leading-5 text-gray-500">
+									4 Days ago
+								</p>
+							</div>
 						</div>
-						<div className="transaction-balance">
-							<img src={NagativeBl} alt="negative" />
-							<p>-$250,93</p>
+						<div className="transaction-balance flex gap-1">
+							<div className="img mt-1">
+								<img src={NagativeBl} alt="negative" />
+							</div>
+							<p className="font-normal text-sm leading-5">-$250,93</p>
 						</div>
 					</div>
 
-					<div className="transaction">
-						<div className="transaction-name">
-							<img src={Manulife} alt="manulife img" />
-							<h5>Manulife Cash</h5>
-							<p>4 Days ago</p>
+					{/* transaction-3  */}
+
+					<div className="transaction flex justify-between pb-8">
+						<div className="transaction-name flex gap-4">
+							<div className="img">
+								<img src={Manulife} alt="manulife img" />
+							</div>
+							<div className="text">
+								<h5 className="font-semibold text-base leading-5">
+									Manulife Cash
+								</h5>
+								<p className="font-normal text-xs leading-5 text-gray-500">
+									4 Days ago
+								</p>
+							</div>
 						</div>
-						<div className="transaction-balance">
-							<img src={PositiveBl} alt="positive" />
-							<p>$250,93</p>
+						<div className="transaction-balance flex gap-1">
+							<div className="img mt-1">
+								<img src={PositiveBl} alt="positive" />
+							</div>
+							<p className="font-normal text-sm leading-5">$250,93</p>
 						</div>
 					</div>
 				</div>
