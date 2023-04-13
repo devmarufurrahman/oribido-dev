@@ -11,9 +11,11 @@ const MainContent = () => {
 			"linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%)",
 	};
 	return (
-		<div className="flex gap-10">
+		<div className="flex justify-between">
 			<div className="content ">
-				<h1 className="not-italic font-semibold text-5xl text-white tracking-wide leading-relaxed ">
+				<h1
+					style={{ width: "622px", height: "154px" }}
+					className="not-italic font-semibold text-5xl text-white tracking-wide leading-relaxed text-justify">
 					You do the business, we’ll handle the money.
 				</h1>
 				<p
@@ -27,14 +29,22 @@ const MainContent = () => {
 					Get Started
 				</button>
 			</div>
-			<div className="cards">
-				<div className="reward-card">
-					<img src={RewardImg} alt="reward img" />
-					<h2>Rewards</h2>
-					<p>
-						The best credit cards offer some tantalizing combinations of
-						promotions and prizes
-					</p>
+			<div className="cards flex flex-col gap-5">
+				<div
+					style={{ width: "500px" }}
+					className="reward-card flex gap-5 cursor-pointer hover:bg-gradient-to-r from-slate-500 to-slate-600 h-24  rounded-md items-center">
+					<div className="img">
+						<img src={RewardImg} alt="reward img" />
+					</div>
+					<div className="card-text flex flex-col items-start">
+						<h2 className="font-semibold text-lg capitalize text-white leading-snug	tracking-wide ">
+							Rewards
+						</h2>
+						<p className="h-12 not-italic font-normal text-base leading-6 w-96 text-left text-gray-300">
+							The best credit cards offer some tantalizing combinations of
+							promotions and prizes
+						</p>
+					</div>
 				</div>
 				<div className="secure-card">
 					<img src={SecureImg} alt="Secure img" />
