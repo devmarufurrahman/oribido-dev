@@ -16,10 +16,10 @@ const Service = () => {
 				style={bg}
 				className="service-wrapper backdrop-blur-sm rounded-3xl  flex flex-col gap-7 md:flex-row md:justify-between  items-center px-12 m-32 sm:m-48 py-10 ">
 				<div className="services ">
-					<h2 className=" font-semibold text-xl sm:text-3xl md:text-5xl text-left">
+					<h2 className=" font-semibold text-xl sm:text-3xl md:text-5xl text-center md:text-left">
 						Let’s try our service now!
 					</h2>
-					<p className="font-normal text-sm sm:text-base md:text-lg leading-relaxed	tracking-wider text-gray-500 text-left">
+					<p className="font-normal text-sm sm:text-base md:text-lg leading-relaxed	tracking-wider text-gray-500 text-center md:text-left">
 						Everything you need to accept card payments and grow your business
 						anywhere on the planet.
 					</p>

@@ -33,7 +33,7 @@ const Payment = () => {
 								<img src={Dribbble} alt="dribble img" />
 							</div>
 							<div className="text">
-								<h5 className="font-semibold text-base leading-5">
+								<h5 className="font-semibold text-sm sm:text-base leading-5">
 									Dribbble Pro
 								</h5>
 								<p className="font-normal text-xs leading-5 text-gray-500 text-left">
@@ -52,12 +52,14 @@ const Payment = () => {
 					{/* transaction-2  */}
 
 					<div className="transaction flex justify-around pb-8">
-						<div className="transaction-name flex gap-4">
+						<div className="transaction-name flex gap-7">
 							<div className="img">
 								<img src={Netflix} alt="netflix img" />
 							</div>
 							<div className="text">
-								<h5 className="font-semibold text-base leading-5">Netflix</h5>
+								<h5 className="font-semibold text-sm sm:text-base leading-5">
+									Netflix
+								</h5>
 								<p className="font-normal text-xs leading-5 text-gray-500 text-left">
 									4 Days ago
 								</p>
@@ -79,7 +81,7 @@ const Payment = () => {
 								<img src={Manulife} alt="manulife img" />
 							</div>
 							<div className="text">
-								<h5 className="font-semibold text-base leading-5">
+								<h5 className="font-semibold text-sm sm:text-base  leading-5">
 									Manulife Cash
 								</h5>
 								<p className="font-normal text-xs leading-5 text-gray-500 text-left">

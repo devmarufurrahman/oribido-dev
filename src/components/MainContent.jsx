@@ -13,14 +13,14 @@ const MainContent = () => {
 				<h1 className=" font-semibold text-2xl sm:text-3xl md:text-5xl text-white  text-justify mb-6">
 					You do the business, we’ll handle the money.
 				</h1>
-				<p className="  not-italic font-normal text-sm sm:text-base md:text-lg text-gray-200 text-left  md:mb-24 lg:mb-12">
+				<p className=" font-normal text-sm sm:text-base md:text-lg text-gray-200 text-center md:text-left  md:mb-24 lg:mb-12">
 					With the right credit card, you can improve your financial life by
 					building credit, earning rewards and saving money. But with hundreds
 					of credit cards on the market.
 				</p>
 				<button
 					style={button}
-					className=" w-20 sm:w-32 md:w-40 h-14 sm:h-16 rounded-xl font-medium text-sm sm:text-base md:text-lg capitalize text-black ">
+					className=" w-20 sm:w-32 md:w-40 h-14 sm:h-16 rounded-xl font-medium text-sm sm:text-base md:text-lg capitalize text-black mx-auto md:mx-0 mt-6">
 					Get Started
 				</button>
 			</div>
