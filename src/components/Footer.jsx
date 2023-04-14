@@ -3,16 +3,18 @@ import SocialLogo from "../asset/social-logo.png";
 
 const Footer = () => {
 	return (
-		<div>
-			<div className="footer-top">
-				<div className="band-logo">
-					<div className="logo">
+		<div className="flex flex-col gap-20">
+			<div className="footer-top flex justify-between  ">
+				<div className="band-logo flex flex-col">
+					<div className="logo flex items-center pb-8">
 						<img src={Logo} alt="Logo" />
-						<h1>
-							OR<span>BIDO</span>
+						<h1 className="font-semibold text-5xl leading-snug">
+							OR<span style={{ color: "#D69300" }}>BIDO</span>
 						</h1>
 					</div>
-					<p>A new way to make the payments easy, reliable and secure.</p>
+					<p className="w-80 h-16 text-left text-gray-500 font-normal text-lg leading-8">
+						A new way to make the payments easy, reliable and secure.
+					</p>
 				</div>
 				<div className="useful-links">
 					<h6>Useful Links</h6>
@@ -66,7 +68,8 @@ const Footer = () => {
 					</ul>
 				</div>
 			</div>
-			<div className="footer-bottom">
+			<div className="bordr border-t-2 border-gray-700 border-solid"></div>
+			<div className="footer-bottom flex justify-between px-5 ">
 				<p>Copyright &copy; 2023 Orbido. All Rights Reserved.</p>
 				<p>
 					<img src={SocialLogo} alt="Social logo here" />

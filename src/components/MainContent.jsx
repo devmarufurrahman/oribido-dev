@@ -25,7 +25,9 @@ const MainContent = () => {
 					building credit, earning rewards and saving money. But with hundreds
 					of credit cards on the market.
 				</p>
-				<button style={button} className=" w-40 h-16 rounded-xl">
+				<button
+					style={button}
+					className=" w-40 h-16 rounded-xl font-medium text-lg capitalize text-black">
 					Get Started
 				</button>
 			</div>
