@@ -101,10 +101,10 @@ const Payment = () => {
 				{/* article start here  */}
 
 				<article className="article-content mx-auto lg:mx-0 w-2/5">
-					<h1 className="font-semibold text-xl sm:text-2xl md:text-3xl lg:text-5xl	 leading-relaxed   text-left">
+					<h1 className="font-semibold text-xl sm:text-2xl md:text-3xl lg:text-5xl	 leading-relaxed  text-center md:text-left">
 						Easily control your billing & invoicing.
 					</h1>
-					<p className="font-normal text-lg leading-7 text-gray-500  text-left mb-7">
+					<p className="font-normal text-lg leading-7 text-gray-500  text-center md:text-left mb-7">
 						Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
 						aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
 						placerat.
