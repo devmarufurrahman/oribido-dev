@@ -4,8 +4,7 @@ const HeaderContent = () => {
 	// Custom style
 	const style = {
 		lineHight: "82px",
-		width: "897px",
-		height: "306px",
+		width: "51%",
 		background:
 			"linear-gradient(90deg, #1FD895 10.14%, #1CD2A2 10.15%, #17C7C0 10.16%, #12BADF 49.71%, #C5018E 84.62%)",
 		webkitBackgroundClip: "text",
@@ -18,7 +17,7 @@ const HeaderContent = () => {
 		<div className="">
 			<div
 				style={style}
-				className="header-content m-auto my-52 not-italic font-bold flex items-center text-center uppercase  text-7xl  overflow-hidden bg-clip-text border border-black border-solid fill-transparent ">
+				className="header-content m-auto my-52 not-italic font-bold flex items-center text-center uppercase  text-3xl sm:text-4xl md:text-5xl lg:text-7xl  overflow-hidden bg-clip-text border border-black border-solid fill-transparent ">
 				make your dream website Stand out in a crowd
 			</div>
 		</div>

@@ -6,7 +6,7 @@ import Dropbox from "../asset/dropbox.png";
 const BandColaborate = () => {
 	return (
 		<div>
-			<div className="brand-name flex justify-evenly mb-40">
+			<div className="brand-name flex  flex-col gap-9	 items-center lg:flex-row lg:justify-evenly mb-40">
 				<a href="#">
 					<img src={Airbnb} alt="airbnb" />
 				</a>

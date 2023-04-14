@@ -15,7 +15,6 @@ const Checkout = () => {
 	const gradientColor = {
 		background: "linear-gradient(113.08deg, #FFFFFF -242.51%, #14101D 85.56%)",
 		boxShadow: "inset -0.243217px -0.243217px 0.364826px rgba(0, 0, 0, 0.36)",
-		left: "390px",
 	};
 
 	// button color css
@@ -32,11 +31,17 @@ const Checkout = () => {
 
 			<div
 				style={gradientColor}
-				className="checkout-wrapper w-56 h-56 rounded-xl p-3 relative top-14 z-10">
+				className="checkout-wrapper w-40 sm:w-56 h-56 rounded-xl p-3 relative mx-auto sm:mx-0 -top-8 sm:top-14 sm:left-60  md:left-1/4 z-10">
 				<div className="checkout-head flex gap-3">
-					<img src={Paypal} alt="Paypal" />
+					<img
+						className="w-10 sm:w-14 h-10 sm:h-14"
+						src={Paypal}
+						alt="Paypal"
+					/>
 					<div className="div">
-						<h2 className="font-semibold text-2xl text-white">Paypal</h2>
+						<h2 className="font-semibold text-xl sm:text-2xl text-white">
+							Paypal
+						</h2>
 						<p className="font-normal text-xs leading-4	tracking-wide text-gray-500 text-left">
 							Checkout
 						</p>
@@ -53,11 +58,11 @@ const Checkout = () => {
 						Change
 					</button>
 				</div>
-				<div className="btn w-48 h-8 mt-6 ">
+				<div className="btn w-32 sm:w-48 h-8 mt-6 ">
 					<button
 						onClick={() => setModal(true)} // modal show onClick
 						style={button}
-						className="rounded-lg py-2 px-10 font-medium text-xs leading-5 tracking-wide text-black">
+						className="rounded-lg p-2 sm:py-2 sm:px-10 font-normal sm:font-medium text-xs leading-5 tracking-wide text-black">
 						Make Payment
 					</button>
 				</div>
