@@ -22,7 +22,7 @@ const Payment = () => {
 	return (
 		<div className="my-72">
 			<Checkout />
-			<div className="payment-container flex justify-between">
+			<div className="payment-container flex justify-around">
 				<div
 					style={gradientColor}
 					className="transactions w-80 h-72 backdrop-blur-lg rounded-xl px-5 py-7">
@@ -32,7 +32,7 @@ const Payment = () => {
 
 					{/* transaction-1  */}
 
-					<div className="transaction flex justify-between pb-8">
+					<div className="transaction flex justify-around pb-8">
 						<div className="transaction-name flex gap-4">
 							<div className="img">
 								<img src={Dribbble} alt="dribble img" />
@@ -56,7 +56,7 @@ const Payment = () => {
 
 					{/* transaction-2  */}
 
-					<div className="transaction flex justify-between pb-8">
+					<div className="transaction flex justify-around pb-8">
 						<div className="transaction-name flex gap-4">
 							<div className="img">
 								<img src={Netflix} alt="netflix img" />
@@ -78,7 +78,7 @@ const Payment = () => {
 
 					{/* transaction-3  */}
 
-					<div className="transaction flex justify-between pb-8">
+					<div className="transaction flex justify-around pb-8">
 						<div className="transaction-name flex gap-4">
 							<div className="img">
 								<img src={Manulife} alt="manulife img" />

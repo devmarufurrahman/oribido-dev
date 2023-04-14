@@ -15,6 +15,7 @@ const Checkout = () => {
 	const gradientColor = {
 		background: "linear-gradient(113.08deg, #FFFFFF -242.51%, #14101D 85.56%)",
 		boxShadow: "inset -0.243217px -0.243217px 0.364826px rgba(0, 0, 0, 0.36)",
+		left: "390px",
 	};
 
 	// button color css
@@ -31,7 +32,7 @@ const Checkout = () => {
 
 			<div
 				style={gradientColor}
-				className="checkout-wrapper w-56 h-56 rounded-xl p-3 relative left-52 top-14 z-10">
+				className="checkout-wrapper w-56 h-56 rounded-xl p-3 relative top-14 z-10">
 				<div className="checkout-head flex gap-3">
 					<img src={Paypal} alt="Paypal" />
 					<div className="div">
@@ -41,7 +42,7 @@ const Checkout = () => {
 						</p>
 					</div>
 				</div>
-				<div className="checkout-content flex justify-between pt-6">
+				<div className="checkout-content flex justify-around pt-6">
 					<div className="amount">
 						<p className="text-xs leading-4	tracking-wide text-gray-500 text-left">
 							Total

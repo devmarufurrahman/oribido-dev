@@ -11,7 +11,7 @@ const MainContent = () => {
 			"linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%)",
 	};
 	return (
-		<div className="flex justify-between ">
+		<div className="flex gap-10 justify-center ">
 			<div className="content flex flex-col">
 				<h1
 					style={{ width: "622px", height: "154px" }}
@@ -35,6 +35,8 @@ const MainContent = () => {
 			{/* card content here  */}
 
 			<div className="cards flex flex-col gap-5">
+				{/* reward card  */}
+
 				<div
 					style={{ width: "500px" }}
 					className="reward-card flex gap-5 cursor-pointer hover:bg-gradient-to-r from-gray-800 to-gray-900 h-24  rounded-md justify-center items-center">
@@ -51,6 +53,9 @@ const MainContent = () => {
 						</p>
 					</div>
 				</div>
+
+				{/* secure card  */}
+
 				<div
 					style={{ width: "500px" }}
 					className="secure-card flex gap-5 cursor-pointer hover:bg-gradient-to-r from-gray-800 to-gray-900 h-24  rounded-md justify-center items-center">
@@ -67,6 +72,9 @@ const MainContent = () => {
 						</p>
 					</div>
 				</div>
+
+				{/* balance card  */}
+
 				<div
 					style={{ width: "500px" }}
 					className="balance-card flex gap-5 cursor-pointer hover:bg-gradient-to-r from-gray-800 to-gray-900 h-24  rounded-md justify-center items-center">

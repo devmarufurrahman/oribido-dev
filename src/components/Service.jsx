@@ -1,7 +1,7 @@
 const Service = () => {
 	// service wrapper css
 	const bg = {
-		width: "1170px",
+		width: "79%",
 		height: "293px",
 
 		background:
